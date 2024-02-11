@@ -9,7 +9,6 @@ const ProductDisplay = (props) => {
 
     const { product } = props
     const { addToCart } = useContext(ShopContext)
-    console.log('product.id: ', product.id)
 
     return (
         <div className="product-display">
